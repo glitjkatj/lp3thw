@@ -1,0 +1,7 @@
+print("Hey world!")
+print("Hey again")
+print("Heh, printing")
+print("Ok. That's cool")
+print('Yay...')
+print("I'm gonna grab some 'pop'. Good day, sir")
+print('I said "Good day, sir"')
