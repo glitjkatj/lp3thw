@@ -1,7 +1,7 @@
 print("I will now count my pokemon")
 
 print("Fire types", 10 + 30 / 20)
-print("Poison types" 2 * 15)
+print("Poison types", 2 * 15)
 
 print("Now I will count the fighting type pokemon")
 print(100 % 3)
