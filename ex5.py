@@ -12,7 +12,7 @@ print(f"Let's talk about {my_name}.")
 print(f"He's {my_height_in_inches} inches tall.")
 print(f"That's {my_height_in_cm} in centimeters")
 print(f"He's {my_weight_in_lbs} pounds heavy.")
-print("That's about {my_weight_in_kg} in kilograms, and crazy heavy whichever unit you use.")
+print(f"That's about {my_weight_in_kg} in kilograms, and crazy heavy whichever unit you use.")
 print(f"He's got {my_eyes} eyes and {my_hair} hair.")
 print(f"His teeth are usually {my_teeth} unless Tony's snapped his fingers")
 
