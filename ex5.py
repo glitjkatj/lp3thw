@@ -18,4 +18,4 @@ print(f"His teeth are usually {my_teeth} unless Tony's snapped his fingers")
 
 # apparently this is line is tricky
 total = my_age + my_height + my_weight
-print(f"If I add {my_age}, {my_height} and {my_weight}, I get {total}. But I don't know why I'm doing the addition to begin with.")
+print(f"If I add {my_age}, {my_height_in_inches} and {my_weight_in_lbs}, I get {total}. But I don't know why I'm doing the addition to begin with.")
