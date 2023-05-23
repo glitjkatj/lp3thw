@@ -17,5 +17,5 @@ print(f"He's got {my_eyes} eyes and {my_hair} hair.")
 print(f"His teeth are usually {my_teeth} unless Tony's snapped his fingers")
 
 # apparently this is line is tricky
-total = my_age + my_height + my_weight
+total = my_age + my_height_in_inches + my_weight_in_lbs
 print(f"If I add {my_age}, {my_height_in_inches} and {my_weight_in_lbs}, I get {total}. But I don't know why I'm doing the addition to begin with.")
