@@ -9,7 +9,7 @@ print(sentence_1)
 print(sentence_2)
 
 print(f"I said, {sentence_1}.")
-print(f"Then I said, {sentence_2}.")
+print(f"Then I said, '{sentence_2}'.")
 
 programmer_dad_joke = True
 joke_evaluation = "Is that a programmer dad joke? {}"
