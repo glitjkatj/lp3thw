@@ -14,10 +14,10 @@ end7 = "r"
 end8 = "r"
 end9 = "i"
 end10 = "t"
-end11 = "0"
+end11 = "o"
 
 print(end1 + end2 + end3 + end4, end=' ')
-print(end5 + end6 + end7 + end8 + end9 + end11)
+print(end5 + end6 + end7 + end8 + end9 + end10 + end11)
 
 print(end1 + end2 + end3 + end4)
-print(end5 + end6 + end7 + end8 + end9 + end11)
+print(end5 + end6 + end7 + end8 + end9 + end10 + end11)
