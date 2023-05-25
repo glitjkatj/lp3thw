@@ -6,7 +6,7 @@ fat_cat = """
 I have a chore for you, human:
 \t* Fancy salmon
 \t* Temptations shrimpies
-\t* Catnip \n\t*Kush
+\t* Catnip \n\t* Kush
 """
 
 print(apa_cat)
