@@ -1,4 +1,4 @@
-apa_cat = "\tI'm a cat that indent the first line of each new paragraph"
+apa_cat = "\tI'm a cat that indents the first line of each new paragraph"
 yoga_cat = "I'm split\non a line"
 backslash_cat = "I'm \\ a \\ cat"
 
