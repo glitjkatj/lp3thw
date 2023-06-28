@@ -1,0 +1,34 @@
+==========================
+ What I've learned so far
+==========================
+
+This is a current tally of stuff I've learned so far.
+
+-----------------------------------
+ Terminal Commands for Linux/MacOS
+-----------------------------------
+
+pwd - print working directory
+hostname - my computer's network name
+env - look at your environment
+export - export/set a new environment variable
+mkdir - make directory
+cd - change directory
+ls - list directory
+rmdir - remove directory 
+pushd - push directory
+popd - pop directory
+cp - copy a file or directory
+mv - move a file or directory
+less - page through a file 
+cat - print a whole file
+echo - print some arguments
+xargs - execute arguments
+find - find files
+grep - find things inside files
+man - read manual page
+apropros - find which man page is appropriate
+exit - exit the shell
+sudo - become root user
+
+
