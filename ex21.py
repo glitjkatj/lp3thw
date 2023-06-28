@@ -29,6 +29,6 @@ print(f"""Age: {age}
 #For the extra credit?
 print("Here's a puzzle.")
 
-what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
+what = add(age, subtract(height, multiply(weight, divide(iq, 2)))) #so this matryoshka doll is solved from inside out
 
 print("That becomes: ", what)
