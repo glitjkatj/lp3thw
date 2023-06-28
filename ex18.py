@@ -20,3 +20,8 @@ print_two("Zed","Shaw")
 print_two_again("Zed","Shaw") 
 print_one("First!")
 print_none()
+
+print_two("glitj","katj")
+print_two_again("glitj","katj") 
+print_one("gltijkatj")
+print_none()
