@@ -2,7 +2,7 @@ from sys import argv
 
 script, user_name = argv
 
-prompt = '>>'
+prompt = '>> '
 
 print(f"Wassup, {user_name}. This is the {script} script.")
 print("We just need to ask you a few questions.")
