@@ -67,4 +67,17 @@ print("This is a string that gets printed to the terminal")
 > greater than
 <= less than or equal to
 >= more than or equal to
+== this checks if two objects are equal
 
+------------
+ Exercise 4
+------------
+
+- variables
+
+variables are containers for storing data values
+they're names you give to some value
+you assign value to a variable using a single equal sign
+some_variable = <data type value>
+
+so, there's a difference between what single equal and double equal do 
