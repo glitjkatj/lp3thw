@@ -125,3 +125,17 @@ if you need a space between words, that can be done a few ways
 print("Samurai " + "Jack")
 print("Samurai" + " Jack")
 print("Samurai" + " " + "Jack")
+
+------------
+ Exercise 8
+------------
+
+- more on format()
+
+formatted_string = "{} {} {} {}"
+
+#the values passed in the parentheses are printed where the curly braces are
+#they're also arranged in order
+print(formatted_string.format("one", "two", "three", "four"))
+print(formatted_string.format(1, 2, 3, 4))
+print(formatted_string.format(True, True, False, True))
