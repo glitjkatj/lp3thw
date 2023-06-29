@@ -51,4 +51,20 @@ print("This is a string that gets printed to the terminal")
 # then you type exec(open("file_name.py").read())
 # to quit the python shell, type and enter quit()
 
+------------
+ Exercise 3
+------------
+
+- math
+
++ this does addition
+- this does subtraction
+* this does multiplication
+/ this does division, and gives you a floating number
+// this also does floor division, and rounds down the result to the nearest integer
+% this is a modulus, and it gives the remainder from a division
+< less than
+> greater than
+<= less than or equal to
+>= more than or equal to
 
