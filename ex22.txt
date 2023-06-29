@@ -111,3 +111,17 @@ here's another way to print a string with embedded values
 nb: the values that go into the curly braces aren't actually named variables
 
 print("My name is {} and I am {} years old".format("Thanos", 1000))
+
+------------
+ Exercise 7
+------------
+
+- more string stuff
+
+you can repeat the printing of a character with multiplication
+print("-" * 10)
+
+if you need a space between words, that can be done a few ways
+print("Samurai " + "Jack")
+print("Samurai" + " Jack")
+print("Samurai" + " " + "Jack")
