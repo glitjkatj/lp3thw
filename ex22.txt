@@ -34,6 +34,9 @@ sudo - become root user
 ------------------
  Exercise 1 and 2
 ------------------
+- print()
+- # comments
+- running .py files from the terminal
 
 print("This is a string that gets printed to the terminal")
 
@@ -41,6 +44,11 @@ print("This is a string that gets printed to the terminal")
 # anything typed after the octothorpe becomes a comment
 # comments get ignored
 # comments are useful for describing what a line of code does or what a certain variable is, etc.
+
 # to run a .py file, type this in the terminal --> python3 file_name.py
+
+# alternatively you can type and enter python3 to start python shell
+# then you type exec(open("file_name.py").read())
+# to quit the python shell, type and enter quit()
 
 
