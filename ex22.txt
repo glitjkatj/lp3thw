@@ -146,6 +146,7 @@ print(formatted_string.format(True, True, False, True))
 
 - more strings
 - multiline strings
+- escaping newline
 
 crew = "Jet Spike Faye Edward Ein"
 print("This is the crew of the Bebop: ", crew)
@@ -156,4 +157,6 @@ The armies of those I love engirth me and I engirth them,
 They will not let me off till I go with them, respond to them,
 And discorrupt them, and charge them full with the charge of the soul.""")
 
-
+#you can also break to a newline in this way
+#\n is an escape character that breaks to a new line
+print("I sing the body electric\nThe armies of those I love...")
