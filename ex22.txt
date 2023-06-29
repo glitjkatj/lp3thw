@@ -81,3 +81,22 @@ you assign value to a variable using a single equal sign
 some_variable = <data type value>
 
 so, there's a difference between what single equal and double equal do 
+
+------------
+ Exercise 5
+------------
+
+- strings
+- embedding variables in f strings
+
+a string is some text you put in single or double quotes
+to put variables in some text you can use an f string, or formatted string
+
+some sample code to illustrate this:
+
+name = "Thanos"
+age = 1000
+
+# the string is preceded by an f
+# inside the string, the variables are put inside curly braces
+print(f"My name is {name} and I am {age} years old.") 
