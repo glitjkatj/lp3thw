@@ -100,3 +100,13 @@ age = 1000
 # the string is preceded by an f
 # inside the string, the variables are put inside curly braces
 print(f"My name is {name} and I am {age} years old.") 
+
+------------
+ Exercise 6
+------------
+
+- format()
+
+here's another way to print a string with embedded variables
+
+print("My name is {} and I am {} years old".format("Thanos", 1000))
