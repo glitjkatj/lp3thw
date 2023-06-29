@@ -160,3 +160,25 @@ And discorrupt them, and charge them full with the charge of the soul.""")
 #you can also break to a newline in this way
 #\n is an escape character that breaks to a new line
 print("I sing the body electric\nThe armies of those I love...")
+
+-------------
+ Exercise 10
+-------------
+
+- escape sequences
+
+the backslash (\) encodes characters into a string
+there are various escape sequences
+
+#consider the code below
+#the double quote after the second 8 could be confused as a double quote that closes the string
+#we put a backslash in front of that double quote to escape it
+print("Green Scar Hulk is 8'8\" tall")
+
+you can also use triple quotes to deal with such a case, i.e. """ """ or ''' ''' 
+
+some escape sequences:
+\\ backslash
+\n new line
+\t tab
+
