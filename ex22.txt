@@ -201,3 +201,7 @@ we can also do it slightly differently
 >> name = input("Hello! What's your name?")
    print(f"Hi, {name}!")
 
+the input entered from the command line are strings
+if you need integers for calculation you can do this
+
+age = int(input("How old are you?"))
