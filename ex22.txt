@@ -238,4 +238,28 @@ we can use argv and input() together
 
    print("Wow, {username}. I didn't know you were from {origin_location}.")
 
-   
+------------------------
+ Exercise 15, 16 and 17
+------------------------
+
+- reading files
+- writing files
+- copying files
+- some commands related to files
+
+here's a simple program that opens and reads files
+>> from sys import argv
+   script , file_name = argv
+
+   text = open(file_name)
+
+   print(f"Here's the {file_name} file you requested: ")
+   print(text.read())
+
+there's several other commands you can use with files
+o close: closes the file duh
+o read: reads the contents of the file, you can assign the result to a variable
+o readline: reads a single line of a text file
+o truncate: empties the file, be careful
+o write('Some text'): writes some text to a file
+o seek(0): moves the read/write location to the beginning of the file
