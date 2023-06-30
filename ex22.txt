@@ -263,3 +263,23 @@ o readline: reads a single line of a text file
 o truncate: empties the file, be careful
 o write('Some text'): writes some text to a file
 o seek(0): moves the read/write location to the beginning of the file
+
+there's several ways to use open()
+doing it like so lets you write and read
+>> from sys import argv
+
+   script, filename, sometext = argv
+   text = open(filename, 'w+')
+   text.write(sometext)
+
+   print(f"{filename} has been created")
+   print(text.read())
+
+the 'w' mode creates a new file or truncates the filename
+there's a few other modes 
+o r: open a file for reading (default)
+o w: open a file for writing, creates a new file if it doesn't exist or truncates the file if it exists
+o a: open for appending at the end of the file without truncating it, creates a new file if it doesn't exist
+o t: open in text mode (default)
+o b: open in binary mode
+o +: open a file for updating (reading and writing)
