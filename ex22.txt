@@ -205,3 +205,37 @@ the input entered from the command line are strings
 if you need integers for calculation you can do this
 
 age = int(input("How old are you?"))
+
+--------------------
+ Exercise 13 and 14
+--------------------
+
+- importing modules
+- passing arguments
+
+when we run a python file from the command line it looks like this
+>> python3 file_name.py
+
+the filename part is called an argument
+we can write a program that accepts arguments like that
+>> from sys import argv
+   script, name = argv
+
+   print(f"Hello, {name}! I'm the {script} script.")
+
+we run the program from the command line like so
+>> python3 file_name.py some_name
+
+trying to run the program with not enough arguments throws an error
+the order in which we pass in the two arguments also matters
+
+we can use argv and input() together
+>> from sys import argv
+   script, username = argv
+
+   print(f"Hello, {username}! This is the {script} script.")
+   origin_location = input("Where are you from?)
+
+   print("Wow, {username}. I didn't know you were from {origin_location}.")
+
+   
