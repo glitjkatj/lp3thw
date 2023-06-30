@@ -275,7 +275,7 @@ doing it like so lets you write and read
    print(f"{filename} has been created")
    print(text.read())
 
-the 'w' mode creates a new file or truncates the filename
+the 'w' mode creates a new file or truncates the given filename
 there's a few other modes 
 o r: open a file for reading (default)
 o w: open a file for writing, creates a new file if it doesn't exist or truncates the file if it exists
@@ -283,3 +283,16 @@ o a: open for appending at the end of the file without truncating it, creates a 
 o t: open in text mode (default)
 o b: open in binary mode
 o +: open a file for updating (reading and writing)
+
+we can also copy one file to another
+>> from sys import argv
+   script og_file nu_file = argv 
+
+   input_file = open(og_file)
+   text = input_file.read()
+
+   output_file = open(nu_file, 'w')
+   output_file.write(text)
+
+   output_file.close()
+   input_file.close()
