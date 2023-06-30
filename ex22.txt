@@ -182,3 +182,22 @@ some escape sequences:
 \n new line
 \t tab
 
+--------------------
+ Exercise 11 and 12
+--------------------
+
+- asking the user questions
+- prompting the user
+- storing inputs to variables
+
+there's different ways to prompt the user, ask questions and receive inputs
+
+>> print("Hello! What's your name?")
+   name = input()
+   print(f"Hi, {name}!")
+
+we can also do it slightly differently
+
+>> name = input("Hello! What's your name?")
+   print(f"Hi, {name}!")
+
