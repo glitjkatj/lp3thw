@@ -38,7 +38,7 @@ sudo - become root user
 - # comments
 - running .py files from the terminal
 
-print("This is a string that gets printed to the terminal")
+>> print("This is a string that gets printed to the terminal")
 
 # <-- this symbol is called an octothorpe
 # anything typed after the octothorpe becomes a comment
@@ -78,7 +78,7 @@ print("This is a string that gets printed to the terminal")
 variables are containers for storing data values
 they're names you give to some value
 you assign value to a variable using a single equal sign
-some_variable = <data type value>
+>> some_variable = <data type value>
 
 so, there's a difference between what single equal and double equal do 
 
@@ -94,12 +94,12 @@ to put variables in some text you can use an f string, or formatted string
 
 some sample code to illustrate this:
 
-name = "Thanos"
-age = 1000
+>> name = "Thanos"
+   age = 1000
 
 # the string is preceded by an f
 # inside the string, the variables are put inside curly braces
-print(f"My name is {name} and I am {age} years old.") 
+>> print(f"My name is {name} and I am {age} years old.") 
 
 ------------
  Exercise 6
@@ -110,7 +110,7 @@ print(f"My name is {name} and I am {age} years old.")
 here's another way to print a string with embedded values
 nb: the values that go into the curly braces aren't actually named variables
 
-print("My name is {} and I am {} years old".format("Thanos", 1000))
+>> print("My name is {} and I am {} years old".format("Thanos", 1000))
 
 ------------
  Exercise 7
@@ -119,12 +119,12 @@ print("My name is {} and I am {} years old".format("Thanos", 1000))
 - more string stuff
 
 you can repeat the printing of a character with multiplication
-print("-" * 10)
+>> print("-" * 10)
 
 if you need a space between words, that can be done a few ways
-print("Samurai " + "Jack")
-print("Samurai" + " Jack")
-print("Samurai" + " " + "Jack")
+>> print("Samurai " + "Jack")
+   print("Samurai" + " Jack")
+   print("Samurai" + " " + "Jack")
 
 ------------
  Exercise 8
@@ -132,13 +132,13 @@ print("Samurai" + " " + "Jack")
 
 - more on format()
 
-formatted_string = "{} {} {} {}"
+>> formatted_string = "{} {} {} {}"
 
-#the values passed in the parentheses are printed where the curly braces are
-#they're also arranged in order
-print(formatted_string.format("one", "two", "three", "four"))
-print(formatted_string.format(1, 2, 3, 4))
-print(formatted_string.format(True, True, False, True))
+the values passed in the parentheses are printed where the curly braces are
+they're also arranged in order
+>> print(formatted_string.format("one", "two", "three", "four"))
+   print(formatted_string.format(1, 2, 3, 4))
+   print(formatted_string.format(True, True, False, True))
 
 ------------
  Exercise 9
@@ -148,18 +148,18 @@ print(formatted_string.format(True, True, False, True))
 - multiline strings
 - escaping newline
 
-crew = "Jet Spike Faye Edward Ein"
-print("This is the crew of the Bebop: ", crew)
+>> crew = "Jet Spike Faye Edward Ein"
+   print("This is the crew of the Bebop: ", crew)
 
 #below is a multiline string
-print("""I sing the body electric,
-The armies of those I love engirth me and I engirth them,
-They will not let me off till I go with them, respond to them,
-And discorrupt them, and charge them full with the charge of the soul.""")
+>> print("""I sing the body electric,
+   The armies of those I love engirth me and I engirth them,
+   They will not let me off till I go with them, respond to them,
+   And discorrupt them, and charge them full with the charge of the soul.""")
 
 #you can also break to a newline in this way
 #\n is an escape character that breaks to a new line
-print("I sing the body electric\nThe armies of those I love...")
+>> print("I sing the body electric\nThe armies of those I love...")
 
 -------------
  Exercise 10
@@ -173,7 +173,7 @@ there are various escape sequences
 #consider the code below
 #the double quote after the second 8 could be confused as a double quote that closes the string
 #we put a backslash in front of that double quote to escape it
-print("Green Scar Hulk is 8'8\" tall")
+>> print("Green Scar Hulk is 8'8\" tall")
 
 you can also use triple quotes to deal with such a case, i.e. """ """ or ''' ''' 
 
