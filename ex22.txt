@@ -296,3 +296,50 @@ we can also copy one file to another
 
    output_file.close()
    input_file.close()
+
+----------------------------
+ Exercise 18, 19, 20 and 21
+----------------------------
+
+- functions
+- parameters
+
+we create functions like so:
+def function_name(argument1, argument2):
+   # do something
+
+we define the function with the keyword def
+we name the function
+we specify what arguments/parameters the function takes
+we end that first line with a colon
+and in the function block, we hit space 4 times
+
+a sample function
+>> def donated_cans(num_people, num_cans):
+      total_cans = num_people * num_cans 
+      print(f"We collected a total of {total_cans} of beans for our food drive.")
+   
+   #we convert the string inputs into integers for calculation
+   attendance = int(input("How many people came to the food drive?"))
+   can_collection = int(input("How many cans of food did they each bring?"))
+
+   #we can pass the arguments in directly when we call the function
+   donated_cans(2,3) 
+   #and we can pass the arguments in as variables
+   donated_cans(attendance, can_collection) 
+
+notice that the names of variables aren't the same as that of the arguments we pass in when we define the function
+
+we can also use file methods inside functions
+>> def print_file(filename):
+       print(filename.read())
+
+   print_file(filename.txt)
+
+using the keyword return in a function returns the output of that function
+we can set a variable to be the value from a function
+>> def addition(a, b):
+       return a + b 
+
+   num_sum = addition(3, 8)
+   print(num_sum)
